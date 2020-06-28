@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- creates canvas for the layout -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <!-- Announcements text -->
+    <TextView
+        android:text="Reminders"
+        android:textSize="30sp"
+        android:textColor="@color/colorHeaders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+        <!-- Listview of all announcements -->
+
+    <!-- Listview of all Agenda points -->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:id="@+id/agenda_list"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView5">
+    </ListView>
+
+    <!-- Agenda text -->
+    <TextView
+        android:text="Agenda"
+        android:textSize="30sp"
+        android:textColor="@color/colorHeaders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:id="@+id/announcement_list"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </ListView>
+</RelativeLayout>

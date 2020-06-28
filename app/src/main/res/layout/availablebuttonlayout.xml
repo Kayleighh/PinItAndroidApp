@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <!-- Available text -->
+    <TextView
+        android:text="Available"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="60sp"
+        android:textColor="@color/colorHeaders"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+    <!-- Switch button layout -->
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        android:id="@+id/toggleButton"
+        android:background="@drawable/check"
+        android:elevation="1dp"
+        android:textOff="NO"
+        android:textOn="YES"
+        android:textSize="40sp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:onClick="availableToggle"/>
+</RelativeLayout>

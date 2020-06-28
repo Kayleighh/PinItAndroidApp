@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generates Menu -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Available menu tab -->
+
+    <item
+        android:id="@+id/available"
+        android:title="@string/available"
+        android:orderInCategory="2"
+        android:icon="@drawable/available"
+        app:showAsAction="always"
+        />
+    <!-- Exit menu tab -->
+    <item
+        android:id="@+id/exit_app"
+        android:title="@string/exit"
+        android:orderInCategory="100"
+        android:icon="@drawable/exit"
+        app:showAsAction="always"
+        />
+    <!-- main page menu tab -->
+    <!-- Post message menu tab -->
+    <item
+        android:id="@+id/main_page"
+        android:title="@string/news"
+        android:orderInCategory="3"
+        android:icon="@drawable/newmessage"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/post_page"
+        android:title="@string/post"
+        android:orderInCategory="2"
+        android:icon="@drawable/newmsg"
+        app:showAsAction="always"
+        />
+    <!-- Presence menu tab -->
+    <!-- rss feed menu tab -->
+    <item
+        android:id="@+id/presence_page"
+        android:title="@string/presence"
+        android:orderInCategory="4"
+        android:icon="@drawable/present"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/rss_feed"
+        android:title="rss_feed"
+        android:orderInCategory="7"
+        app:showAsAction="always"
+        android:icon="@drawable/ars"
+        />
+    <item
+        android:id="@+id/exitRss"
+        android:title="ExitRss"
+        android:icon="@drawable/exit"
+        app:showAsAction="always"
+        />
+</menu>

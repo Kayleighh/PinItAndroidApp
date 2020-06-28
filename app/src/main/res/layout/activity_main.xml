@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Creates a canvas for the layout -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="Stenden.pinitapplication.MainActivity"
+    android:addStatesFromChildren="false"
+    android:background="@color/colorLightBlue">
+
+    <!-- Stenden made by students logo -->
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="5dp"
+        app:srcCompat="@drawable/stenden"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorWhite"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/stenden_made_by_students_logo"
+        android:src="@drawable/stenden" />
+
+    <!-- Student button -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pinit2"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:text="@string/student_cap"
+        android:textColor="@color/colorWhite"
+        android:textSize="40sp"
+        android:background="@color/colorDarkBlue"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonStudent"
+        android:layout_marginTop="200dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:onClick="goToHome"/>
+
+    <!-- Teacher button -->
+    <Button
+        android:text="@string/teacher_cap"
+        android:textColor="@color/colorWhite"
+        android:textSize="40sp"
+        android:background="@color/colorDarkBlue"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonTeacher"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/buttonStudent"
+        android:layout_centerHorizontal="true"
+        android:onClick="goToScanner"/>
+
+    <!-- Name of the application in two textviews -->
+
+
+</RelativeLayout>

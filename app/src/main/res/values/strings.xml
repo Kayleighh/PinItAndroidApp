@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PinIT</string>
+    <string name="stenden_made_by_students_logo">Stenden made by students logo</string>
+    <string name="student_cap">STUDENT</string>
+    <string name="teacher_cap">TEACHER</string>
+    <string name="pin_logo">Pin</string>
+    <string name="it_logo">IT</string>
+    <string name="send_cap">SEND</string>
+    <string name="post_message">Post Message</string>
+    <string name="presence">Presence</string>
+    <string name="qr_generator">Qr generator</string>
+    <string name="post">Post</string>
+    <string name="news">News</string>
+    <string name="exit">Exit</string>
+    <string name="available">Available</string>
+</resources>

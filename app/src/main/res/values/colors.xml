@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Makes shortcuts for different colors to use in app -->
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorLightBlue">#6CB4EF</color>
+    <color name="colorDarkBlue">#5face0</color>
+    <color name="colorLogoBlue">#5FACE0</color>
+    <color name="colorLogoOrange">#F48851</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorHeaders">#444444</color>
+</resources>
